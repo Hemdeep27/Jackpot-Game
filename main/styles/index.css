@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assests/images/homepageNew1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+
+
+#button-landing {
+    left: 25%;
+    bottom: 8%;
+    position: absolute;
+    width: 200px;
+    height: 60px;
+}
+#button-landing:hover {
+    cursor: pointer;
+}

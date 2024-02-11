@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+
+#cross img {
+    height: 70px;
+}
+
+#cross {
+    position: fixed;
+    right: 4%;
+    top: 3%;
+}
+#prize-container {
+    position: relative;
+    /* background-image: url("../assests/images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-color: #174174;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+.image-div img {
+    height: 25rem;
+    width: 24rem;
+}
+.text h2 {
+    color: aliceblue;
+    font-family: "Covered By Your Grace";
+    font-size: 2rem;
+}
+
+.text2 h2 {
+    color: aliceblue;
+    font-family: "Covered By Your Grace";
+    font-size: 2rem;
+}
+
+/* .text {
+    position: absolute;
+} */
+.text {
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+}
+
+.text img {
+    height: 25rem;
+    width: 24rem;
+    align-self: flex-start;
+    justify-self: center;
+}
+
+.text3 {
+    padding-left: 3%;
+}
+.text3 h2 {
+    color: #f99c34;
+    font-family: "Covered By Your Grace";
+    font-size: 1.5rem;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/game.css" />
+    <link rel="stylesheet" href="../styles/lose.css" />
+    <link rel="stylesheet" href="../styles/prize.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Covered By Your Grace"
+    />
+    <script src="../scripts/app.js" async></script>
+    <script src="../scripts/gametrail.js" async></script>
+    <script src="../scripts/lost.js" async></script>
+    <script src="../scripts/prize.js" async></script>
+  </head>
+  <body>
+    <!-- index................................................................................... -->
+    <div id="app">
+      <audio
+        id="my-Audio"
+        src="../assests/sounds/8bit-music-for-game-68698.mp3"
+        autoplay = "autoplay"
+        loop = "loop"
+      ></audio>
+      <img
+        src="../assests/images/playbutton-modified.png"
+        id="button-landing"
+      />
+    </div>
+
+    <!-- game................................................................................... -->
+    <div id="container">
+      <div class="moves">
+        <h2>Chances Left <span id="count">5</span></h2>
+      </div>
+      <div class="reel2">
+        <img src="../assests/images/orange.jpeg" class="symbol" id="symbol-1" />
+        <img
+          src="../assests/images/watermelon.jpeg"
+          class="symbol"
+          id="symbol-2"
+        />
+        <img
+          src="../assests/images/bananasingle.jpg"
+          class="symbol"
+          id="symbol-3"
+        />
+      </div>
+    </div>
+    <button id="game-button">SPIN</button>
+
+    <!-- looose....................................................................................... -->
+    <div id="lose-container">
+      <div class="image-div">
+        <img src="../assests/images/betterluck-removebg-preview.jpg" />
+      </div>
+      <div class="text-div">
+        <h2>You Ran Out Of Chances!!</h2>
+      </div>
+      <div class="button-div">
+        <img src="../assests/images/Tryagain.jpeg" id="retry" />
+      </div>
+      <div class="tryagain-div">
+        <h3>Try again!</h3>
+      </div>
+    </div>
+
+    <!-- prize.......................................................................................... -->
+    <div id="prize-container">
+      <div id="cross">
+        <img src="../assests/images/cross-removebg-preview.jpg" id="into" />
+      </div>
+      <div class="image-div">
+        <img src="../assests/images/JACKPOT-animation.gif" />
+      </div>
+      <div class="text3">
+        <h2>Congratulations you have won the jackpot</h2>
+      </div>
+      <div class="text">
+        <img src="../assests/images/cloud-removebg-preview-overlay.jpg" />
+      </div>
+    </div>
+  </body>
+</html>
